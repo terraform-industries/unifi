@@ -123,7 +123,7 @@ var ErrCannotUnmarshalFlexString = fmt.Errorf("cannot unmarshal to FlexString")
 // The %s in each string must be replaced with a Site.Name.
 const (
 	// APIRogueAP shows your neighbors' wifis.
-	APIRogueAP string = "/api/s/%s/stat/rogueap"
+	APIRogueAP string = "/api/s/%s/stat/rogueap?within=1"
 	// APIStatusPath shows Controller version.
 	APIStatusPath string = "/status"
 	// APIEventPath contains UniFi Event data.
